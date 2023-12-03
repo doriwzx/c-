@@ -44,4 +44,4 @@ displayBookInfo(book3);
 
 // An attempt to pass an object with an incorrect structure causes an error at compile time
 // const invalidBook: Book = { title: "Invalid Title", year: 2022, author: "Unknown", genre: "Unknown" }; 
-// Ошибка: Type '{ title: string; year: number; author: string; genre: string; }' is not assignable to type 'Book'.
+// Error: Type '{ title: string; year: number; author: string; genre: string; }' is not assignable to type 'Book'.
